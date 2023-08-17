@@ -5,6 +5,7 @@ const Expense = () => {
   const [taskdata, setaddTaskData] = useState([]);
   const taskhandle = () => {
     setaddTaskData([...taskdata, task]);
+    setTask("");
   };
   return (
     <div className="expense">
